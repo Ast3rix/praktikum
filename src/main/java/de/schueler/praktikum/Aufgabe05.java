@@ -18,7 +18,7 @@ import java.util.Random;
  * 2. Berechne sowohl den Umfang, als auch die Fläche und speichere die Werte in Variablen
  * 3. Gebe die Variablen mit System.out.println. Beispiel siehe bei der Ausgabe des Radius.
  */
-public class Aufgabe5 {
+public class Aufgabe05 {
 
     public static void main(String[] args) {
         var random = new Random();

@@ -4,7 +4,7 @@ package de.schueler.praktikum;
  * Überlege dir, was für eine Ausgabe die folgende main()-Methode erzeugen wird.
  * Führe die main()-Methode aus und vergleiche das Resultat mit deinen Erwartungen.
  */
-public class Aufgabe3 {
+public class Aufgabe03 {
 
     public static void main(String[] ignored) {
         int number = 1;

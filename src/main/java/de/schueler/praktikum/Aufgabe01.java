@@ -5,7 +5,7 @@ package de.schueler.praktikum;
  * Diese Klasse demonstriert einfache Zuweisungen und Berechnungen mit Variablen.
  * Ausführung in IntelliJ: Klick auf den "grünen Pfeil" -> Run 'Aufgabe1.main()'
  */
-public class Aufgabe1 {
+public class Aufgabe01 {
 
     public static void main(String[] args) {
         int birnen = 0;

@@ -13,7 +13,7 @@ import java.util.Scanner;
  * Der Rohbau des Spiels ist bereits umgesetzt. Teste das Spiel bereits vor der Umsetzung und versuche zu verstehen was es bereits kann.
  * "scanner.next()" wartet auf eine Eingabe in der Konsole (An der Stelle an der Text ausgegeben wird, kann auch etwas eingeben.)
  */
-public class Aufgabe8 {
+public class Aufgabe08 {
 
     public static void main(String[] args) {
         var random = new Random();

@@ -6,7 +6,7 @@ package de.schueler.praktikum;
  * Führe die main()-Methode aus und vergleiche das Resultat mit deinen Erwartungen.
  * Erkläre die beiden Ausgaben und erkläre die Unterschiede?
  */
-public class Aufgabe2 {
+public class Aufgabe02 {
 
     public static void main(String[] ignored) {
         System.out.println(0);

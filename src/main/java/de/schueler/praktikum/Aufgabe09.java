@@ -12,7 +12,7 @@ import java.util.Scanner;
  * <p>
  * Nutze dafür eine for-Schleife. Lies dich ein, wie man eine for-Schleife implementiert. (Goolge)
  */
-public class Aufgabe9 {
+public class Aufgabe09 {
 
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);

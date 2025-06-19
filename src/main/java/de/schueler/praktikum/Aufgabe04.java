@@ -6,7 +6,7 @@ package de.schueler.praktikum;
  *
  */
 
-public class Aufgabe4 {public static void main
+public class Aufgabe04 {public static void main
         (String [] ignored) {
     System.out.println(0); int zero = 0;
     System.out.println(zero);

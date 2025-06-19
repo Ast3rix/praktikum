@@ -11,7 +11,7 @@ package de.schueler.praktikum;
 
 import java.util.Random;
 
-public class Aufgabe7 {
+public class Aufgabe07 {
 
     public static void main(String[] args) {
         var random = new Random();
