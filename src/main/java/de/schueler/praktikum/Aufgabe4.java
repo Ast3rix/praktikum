@@ -1,7 +1,11 @@
 package de.schueler.praktikum;
 
-// Formatiere den Code, so dass er gut lesbar ist.
-// Formatierung siehe vorherige Aufgaben
+/**
+ * Formatiere den Code, so dass er gut lesbar ist.
+ * Die richtige Formatierung kannst du in den vorherigen Aufgaben finden.
+ *
+ */
+
 public class Aufgabe4 {public static void main
         (String [] ignored) {
     System.out.println(0); int zero = 0;

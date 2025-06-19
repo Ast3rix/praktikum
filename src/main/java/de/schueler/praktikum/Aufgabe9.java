@@ -2,15 +2,15 @@ package de.schueler.praktikum;
 
 import java.util.Scanner;
 
-/*
-Ich mag '#' - Zeichen.
-Schreibe ein Programm, bei dem eine Zahl eingelesen wird und dann so viele # ausgegeben werden, wie die eingegeben Zahl ist.
-
-Beispiel:
-Eingabe ist 3 -> Ausgabe: ###
-Eingabe ist 5 -> Ausgabe ist #####
-
-Nutze dafür eine for-Schleife --> Google nutzen und einlesen
+/**
+ * Implementiere ein Programm, bei dem eine Zahl eingelesen wird.
+ * Es sollen danach so viele # ausgegeben werden, wie der Wert der Zahl ist.
+ * Beispiel:
+ * Eingabe ist 3 -> Ausgabe: ###
+ * Eingabe ist 5 -> Ausgabe ist #####
+ * Eingabe ist 10 -> Ausgabe ist ##########
+ * <p>
+ * Nutze dafür eine for-Schleife. Lies dich ein, wie man eine for-Schleife implementiert. (Goolge)
  */
 public class Aufgabe9 {
 
@@ -19,7 +19,6 @@ public class Aufgabe9 {
 
         System.out.println("Wie viele # soll ich anzeigen?");
         int anzahl = Integer.valueOf(scanner.next());
-
 
 
     }

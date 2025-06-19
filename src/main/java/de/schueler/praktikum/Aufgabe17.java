@@ -1,45 +1,26 @@
 package de.schueler.praktikum;
 
-import java.util.Random;
-import java.util.Scanner;
-
-/*
-Schreibe ein Programm, dass zunächst eine Zahl einliest. Mit der eingelesen Zahl soll ein Array mit dieser Größe erstellt werden.
-Dann soll das Array mit zufälligen Zahlen (maximalwerte 20) gefüllt werde. Eine Zufallszahl mit einem max. Wert 20 kann wie in Aufgabe 8 erzeugt werdem:
-var random = new Random();
-var zufallsZahl = random.nextInt(20);
-
-Dann soll der Nutzer versuchen eine beliebige Zahl aus dem Array zu erraten.
-Wenn er falsch rät, bekommt er einen Hinweis, dass er falsch lag und darf er nochmal raten.
-Wenn er richtig rät, bekommt er einen Hinweis, dass er richtig lag.
-Zusätzlich wird ausgegeben, wieviele Versuche er benötigt hat um eine Zahl zu erraten und welche Zahlen im Array waren.
-
-
-Beispiel für den Input und output des Programms:
-================================================
-
-Wieviele Zahlen bis 20 soll das Array beinhalten?
-3
-Versuchen Sie eine Zahl zu erraten:
-8
-Leider falsch.
-Versuchen Sie eine Zahl zu erraten:
-9
-Leider falsch.
-Versuchen Sie eine Zahl zu erraten:
-13
-Richtig geraten!
-Folgende Zahlen waren im Array: 1 5 9 13 18
-Sie haben 3 Versuche benötigt.
-
-
+/**
+ * Implementiere zwei Methoden, die genutz werden können, um in einem Array die kleinste und größte Zahl zu finden.
+ * Google was in Java ein Methode ist und wie diese funktioniert.
+ * Die Signatur der Methode soll wie folgt aussehen:
+ *
+ * public static double minimum(double[] numbers) { }
+ * public static double maximum(double[] numbers) { }
+ *
+ * Rufe die Methoden mit den 3 Arrays "myNumbers1", "myNumbers2", "myNumbers3" (siehe unten) auf
+ * und gebe das Ergebnis der Methode in der Konsole aus.
+ *
+ * Prüfe, ob das Ergebnis stimmt.
+ * Diskutiere mit deinem Praktikumsbetreuer, welche Vorteile eine Methode hat.
+ *
  */
 public class Aufgabe17 {
 
     public static void main(String[] args) {
-        var scanner = new Scanner(System.in);
-        System.out.println("Wieviele Zahlen bis 20 soll das Array beinhalten?");
-        int groesseArray = scanner.nextInt();
+        int[] myNumbers = {9, 3, 2, 8, 11, 6, 7, 5, 4, 1, 10};
+        int[] myNumbers2 = {6, 10, 2, 5, 9, 3};
+        int[] myNumbers3 = {1};
 
     }
 }

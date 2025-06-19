@@ -1,8 +1,11 @@
 package de.schueler.praktikum;
 
 import java.util.Random;
-// Enferne die Kommentar-Zeichen. /* und */
-// Finde alle Fehler und bringe den Code zum laufen.
+
+/**
+ * Enferne die Kommentar-Zeichen.
+ * Finde alle Fehler und bringe den Code zum laufen.
+ */
 public class Aufgabe6 {
 
     public static void main(String[] args) {

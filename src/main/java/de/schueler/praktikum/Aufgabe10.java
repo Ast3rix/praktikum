@@ -2,27 +2,27 @@ package de.schueler.praktikum;
 
 import java.util.Scanner;
 
-/*
-Ich mag '#' - Zeichen.
-Schreibe ein Programm, bei dem zwei Zahlen (Höhe und Breite) einliest wird und dann ein Viereck aus # anzeigt.
-
-Beispiel:
-
-Eingabe Höhe 2, Breite 4 -> Ausgabe:
-####
-####
-
-
-Eingabe Höhe 3, Breite 6 -> Ausgabe:
-######
-######
-######
-
-Nutze dafür zwei verschaltelte for-Schleifen --> Google nutzen und einlesen
-for(....) {
-  for(....) {
-  }
-}
+/**
+ * Implementiere ein Programm, bei dem zwei Zahlen (Höhe und Breite) eingelesen werden
+ * und dann für die Ausgabe eines Vierecks aus # genutzt werden.
+ *
+ * Beispiel:
+ *
+ * Eingabe Höhe 2, Breite 4 -> Ausgabe:
+ * ####
+ * ####
+ *
+ *
+ * Eingabe Höhe 3, Breite 6 -> Ausgabe:
+ * ######
+ * ######
+ * ######
+ *
+ * Nutze dafür zwei verschaltelte for-Schleifen --> ggfs. Google nutzen und einlesen
+ * for(....) {
+ *      for(....) {
+ *    }
+ * }
  */
 public class Aufgabe10 {
 

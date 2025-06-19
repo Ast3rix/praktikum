@@ -1,24 +1,22 @@
 package de.schueler.praktikum;
 
-/*
-Schreibe zwei Methoden, die genutz werden können, um in einem Array die kleinste und größte Zahl zu finden.
-Google was in Java ein Methode ist und wie diese funktioniert.
-Die Signatur der Methode soll wie folgt aussehen:
-public static double minimum(double[] numbers) { }
-public static double maximum(double[] numbers) { }
+import java.util.Scanner;
 
-Rufe die Methoden mit den 3 Arrays "myNumbers1", "myNumbers2", "myNumbers3" (siehe unten) auf und gebe das Ergebnis der Methode in der Konsole aus.
-Prüfe, ob das Ergebnis stimmt.
-Diskutiere mit deinem Praktikumsbetreuer, welche Vorteile eine Methode hat.
-
-
+/**
+ * Implementiere ein Programm, dass einen ganzzahligen Radius einließt.
+ * Berechne dann die Fläche des Kreises (2 * r * 3.14)  und gebe diese in der Konsole aus.
+ *
+ * Lagere die Berechnung des Radius in eine Java-Methode "berechneRadius" aus.
+ * Lagere die Ausgabe ebenfalls eine Methode "printRadius" aus.
+ *
+ * Nutze dann diese zwei Methoden in deinem Programm
  */
 public class Aufgabe18 {
 
     public static void main(String[] args) {
-        int[] myNumbers = { 9, 3, 2, 8, 11, 6, 7, 5, 4, 1, 10};
-        int[] myNumbers2 = { 6, 10, 2, 5, 9, 3};
-        int[] myNumbers3 = { 1 };
+        var scanner = new Scanner(System.in);
+        System.out.println("Gib einen Radius an?");
+        int radius = scanner.nextInt();
 
     }
 }

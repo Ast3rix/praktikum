@@ -1,20 +1,22 @@
 package de.schueler.praktikum;
 
 import java.util.Random;
-import java.util.Scanner;
 
 /**
- * Schreibe ein Programm, welches den Umfang und die Fläche eines Kreises berechnen kann.
- * Der radius wird bei jedem durchlauf zufällig generiert
- * und hat immer einen anderen Wert und ist in der Variablen "radius" gespeichert.
- * Die berechneten Werte sollen anschließend ausgegeben werden.
- * • Formel für den Kreisumfang: U = 2 * PI * radius
- * • Formel für die Kreisfläche: F = PI * radius * radius
+ * Schreibe ein Programm, dass den Umfang und die Fläche eines Kreises berechnen kann.
+ * Der Radius wird bei jedem Durchlauf zufällig generiert
+ * und hat somit bei jedem Durchlauf einen anderen Wert.
+ * Der zufällig generierte Wert wird in der Variblen 'radius' gespeichert.
+ *
+ * Die berechnete Fläche und der berechnete Umfang sollen anschließend ausgegeben werden.
+ * Formel für den Kreisumfang: U = 2 * PI * radius
+ * Formel für die Kreisfläche: F = PI * radius * radius
+ *
  * Gehe wie folgt vor:
- * 1. Definiere eine Variable PI mit dem Wert 3.14159 => nutze den Datentyp "double" (analog zu int)
- * um Kommazahlen speichern zu können.
+ * 1. Definiere eine Variable 'pi' mit dem Wert 3.14159
+ *      => Nutze den Datentyp "double" (analog zu int) um Gleitkommazahlen zu speichern
  * 2. Berechne sowohl den Umfang, als auch die Fläche und speichere die Werte in Variablen
- * 3. Gebe die variablen mit system.out aus
+ * 3. Gebe die Variablen mit System.out.println. Beispiel siehe bei der Ausgabe des Radius.
  */
 public class Aufgabe5 {
 

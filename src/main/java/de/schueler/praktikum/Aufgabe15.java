@@ -2,27 +2,45 @@ package de.schueler.praktikum;
 
 import java.util.Scanner;
 
-/*
-Schreibe ein Programm, dass eine Zahl einließt.
-Ist die eingelesen Zahl 0-5, dann gib "kleine zahl" aus.
-Ist die eingelesen Zahl 5-10, dann gib "mittelgroße zahl" aus.
-Ist die eingelesen Zahl 10 oder höher, dann gib "hohe zahl" aus.
-
-Nutze dazu eine Switch-Anweisung mit nur 2 "case" und einer "default" Anweisung!
-Beispiel für den Input und output des Programms:
-================================================
-Gebe eine einstellige Zahl ein:
-7
-mittelgroße zahl
-
-
+/**
+ * Implementiere ein Shopping-Programm, dass zuerst einliest will, wie viele Artikel du kaufen willst.
+ * Dann sollen die Artikel-Beträge (ganzzahlig) eingelesen werden und am Ende alle eingelesenen Beträge addiert werden.
+ * Das Programm gibt am Ende den Gesamtbetrag aus:
+ *
+ * Benutzte dazu "arrays":
+ * Google, was in Java Arrays sind und wie Arrays verwendet werden können.
+ *
+ * Beispiel:
+ * int[] arrayOne = new Int[3];  --> legt ein Array mit der Größe 3 an
+ * arrayOne[0] = 5;              --> schreibt in das erste Feld den Wert 5
+ * arrayOne[1] = 2;              --> schreibt in das zweite Feld den Wert 2
+ * arrayOne[2] = arrayOne[0] * 3;   -> schreibt in das dritte Feld das Produkt aus dem ersten Feld und 3
+ * System.out.println("Wert 2. Feld = " + arrayOne[1])
+ *
+ * Bitte beachte, dass der Index mit 0 beginnt. Das bedeutet, dass das erste werte Werte beim Feld 0 steht.
+ *
+ * Beispiel für den Input und output des Programms:
+ * ================================================
+ *
+ * Wieviele Artikel wollen Sie kaufen?
+ * 4
+ * Wieviel Euro kostet der 1. Artikel:
+ * 2
+ * Wieviel Euro kostet der 2. Artikel:
+ * 1
+ * Wieviel Euro kostet der 3. Artikel:
+ * 4
+ * Wieviel Euro kostet der 4. Artikel:
+ * 6
+ *
+ * Die Summe beträgt 13 Euro.
  */
 public class Aufgabe15 {
 
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);
-        System.out.println("Gebe eine einstellige Zahl ein: ");
-        int zahl = scanner.nextInt();
+        System.out.println("Wieviele Artikel wollen Sie kaufen?");
+        int anzahlArtikel = scanner.nextInt();
 
     }
 }
