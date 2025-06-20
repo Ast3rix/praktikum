@@ -3,35 +3,23 @@ package de.schueler.praktikum;
 import java.util.Scanner;
 
 /**
- * Implementiere ein Programm, bei dem zwei Zahlen (Höhe und Breite) eingelesen werden
- * und dann für die Ausgabe eines Vierecks aus # genutzt werden.
- *
+ * Implementiere ein Programm, bei dem eine Zahl eingelesen wird.
+ * Es sollen danach so viele # ausgegeben werden, wie der Wert der Zahl ist.
  * Beispiel:
- *
- * Eingabe Höhe 2, Breite 4 -> Ausgabe:
- * ####
- * ####
- *
- *
- * Eingabe Höhe 3, Breite 6 -> Ausgabe:
- * ######
- * ######
- * ######
- *
- * Nutze dafür zwei verschaltelte for-Schleifen --> ggfs. Google nutzen und einlesen
- * for(....) {
- *      for(....) {
- *    }
- * }
+ * Eingabe ist 3 -> Ausgabe: ###
+ * Eingabe ist 5 -> Ausgabe ist #####
+ * Eingabe ist 10 -> Ausgabe ist ##########
+ * <p>
+ * Nutze dafür eine for-Schleife. Lies dich ein, wie man eine for-Schleife implementiert. (Goolge)
  */
 public class Aufgabe10 {
 
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);
-        System.out.println("Gib die Höhe des Vierecks ein?");
-        int hoehe = Integer.valueOf(scanner.next());
-        System.out.println("Gib die Breite des Vierecks ein?");
-        int breite = Integer.valueOf(scanner.next());
+
+        System.out.println("Wie viele # soll ich anzeigen?");
+        int anzahl = Integer.valueOf(scanner.next());
+
 
     }
 }

@@ -1,25 +1,17 @@
 package de.schueler.praktikum;
 
 /**
- * Überlege dir, was für eine Ausgabe die folgende main()-Methode erzeugen wird.
+ * Überlege dir, was für eine Ausgabe der folgende Code erzeugen wird,
+ * wenn du die main()-Methode ausführst.
  * Führe die main()-Methode aus und vergleiche das Resultat mit deinen Erwartungen.
+ * Erkläre die beiden Ausgaben und erkläre die Unterschiede?
  */
 public class Aufgabe03 {
 
     public static void main(String[] ignored) {
-        int number = 1;
-        System.out.println(number);
-        number = 1;
-        System.out.println(number);
-        number = 2;
-        System.out.println(number);
-        number = 3;
-        System.out.println(number);
-        number = 1;
-        System.out.println(number);
-        number = 17;
-        System.out.println(number);
+        System.out.println(0);
+        int zero = 0;
+        System.out.println(zero);
     }
-
 
 }

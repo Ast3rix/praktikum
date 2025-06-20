@@ -1,29 +1,29 @@
 package de.schueler.praktikum;
 
+import java.util.Random;
+
 /**
- * Enferne die Kommentar-Zeichen.
- * Finde alle Fehler und bringe den Code zum laufen.
+ * Schreibe ein Programm, dass den Umfang und die Fläche eines Kreises berechnen kann.
+ * Der Radius wird bei jedem Durchlauf zufällig generiert
+ * und hat somit bei jedem Durchlauf einen anderen Wert.
+ * Der zufällig generierte Wert wird in der Variblen 'radius' gespeichert.
+ *
+ * Die berechnete Fläche und der berechnete Umfang sollen anschließend ausgegeben werden.
+ * Formel für den Kreisumfang: U = 2 * PI * radius
+ * Formel für die Kreisfläche: F = PI * radius * radius
+ *
+ * Gehe wie folgt vor:
+ * 1. Definiere eine Variable 'pi' mit dem Wert 3.14159
+ *      => Nutze den Datentyp "double" (analog zu int) um Gleitkommazahlen zu speichern
+ * 2. Berechne sowohl den Umfang, als auch die Fläche und speichere die Werte in Variablen
+ * 3. Gebe die Variablen mit System.out.println. Beispiel siehe bei der Ausgabe des Radius.
  */
 public class Aufgabe06 {
 
     public static void main(String[] args) {
-        /*
         var random = new Random();
-        double pi = 3,1415;
-        System.out.print("Radius: ");
-        double radius = randoman.nextDouble();
-        System.out.print("Height: ");
-        double height = random.nextDouble();
-        double circumference = 2 * pi * -(-radius);
-        double baseArea = pi * radius ** 2;
-        double lateralSurfaceArea = circumference * height;
-        double surface = 2 * baseArea + lateralSurfaceArea;
-        double volume = baseArea * height;
-        System.out.println("Circumference: + circumference");
-        System.out.println("Base Area: " + baseArea);
-        System.out.println("Lateral Surface Area: " + LateralSurfaceArea);
-        System.out.println("Surface: "surface);
-        System.out.println("Volume: " + volume;
-        */
+        int radius = random.nextInt(100);
+        System.out.println("Radius = " + radius);
+
     }
 }
