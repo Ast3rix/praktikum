@@ -1,31 +1,31 @@
 package de.schueler.praktikum;
 
+import java.util.Scanner;
+
 /**
- * Schreiben eine Klasse, die ein Bankkonto realisiert.
- * Attribute für das Bankkonto sind:
+ * Google im Internet nach Java - "Klassen". Informiere dich, wozu sie da sind und wie sie verwendet werden.
  *
- * Name und Vorname des Kontoinhabers
- * die Kontonummer
- * der Kontostand
- * ein Limit, bis zu dem das Konto überzogen werden darf.
+ * Schreibe ein Programm, dass einen Radius einliest. Berechne die Fläche, den Umfang und den Durchmesser (ggfs. google, wie
+ * man das berechnet) und zeige die Werte an.
  *
- * Mit Konstruktoren können Klassen angelegt/erzeugt werden.
- * Google, wie diese angelegt werden und lege einen oder mehrere geeignete Konstruktoren an.
+ * Erstelle dafür eine Klasse "Kreis", die 3 Methoden ("berechenFlaeche", "berechneUmfang", "berechneDurchmesser" hat.
+ * Nutze diese Klasse in deinem Hauptprogramn,
  *
- * Erstellen Sie Methoden für folgende Operationen:
- * Ausgabe der Kontodaten (nutze hierfür die "toString()"-Methode -> Google wie diese funktioniert.)
- * Einzahlung
- * Auszahlung (solange das Limit nicht überschritten ist)
- * Abfrage des Kontostandes.
  *
- * Zweiter Teil:
- * ============
- * Schreibe Tests, die die Bankkonto-Klasse mit den Funktionen/Methoden abtesten.
+ * Ausbauschritt, wenn der erste Teil bereits funktioniert:
+ * Informiere dich, was "jUnit"-Tests sind.
+ * Erstelle eine Test-Klasse im test-Ordner für die Klasse "Kreis" und schreibe mindestens 3 Tests.
+ *
+ * Ein triviales Beispiel für einen Test findest du in der Klasse "Test123.java" im Test-Ordner unten.
  *
  */
 public class Aufgabe21 {
 
     public static void main(String[] args) {
+        var scanner = new Scanner(System.in);
+
+        System.out.println("Gib einen Radius an?");
+        int radius = scanner.nextInt();
 
     }
 }

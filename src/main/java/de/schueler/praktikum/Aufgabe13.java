@@ -1,21 +1,25 @@
 package de.schueler.praktikum;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 /**
- * Implementiere ein Programm, dass ein Wort einliest und dann das Wort anders herum zurück gibt.
+ * Implementiere ein Programm, dass die Anzahl der Buchtaben 'e' in einem eingebenen Wort zählt.
+ * Nutze folgende Hilfsfunktionen:
+ * String wort = "Hello";
+ * text.charAt(0); // 'H' 0=erster Buchstabe
+ * text.charAt(1); // 'e' 1=zweiter Buchstabe
+ * text.charAt(2); // 'l' 2=dritter Buchstabe
+ * ...
+ * text.length(); // 5 letzter Buchstabe ist also text.length() -1 !!
  *
- * Beispiel:
- * Eingabe "hallo" -> Ausgabe "ollah"
+ * Verwende for-Schleifen und if-else....
  *
- * Falls das Wort ein Palindrom ist, dann gibt "Es handelt sich um ein Palindrome!" aus.
- * (Ein Palindrom ist ein Wort, dass vorwärts und rückwärts gleich ist. Beispiel: uhu, radar, rentner, ...)
  *
  * Ausbauschritt, wenn der erste Teil bereits funktioniert:
- * Das Programm soll bei der Palidrom-Erkennung die Großbuchstaben ignorieren können.
+ * Das Programm soll auch mit Großbuchstaben umgehen können.
+ *
  * Beispiel:
- * Eingabe "Rentner" -> Ausgabe "Es handelt sich um ein Palindrome!"
+ * Entenhausen -> 3xe  (1xE und 2xe)
  *
  */
 public class Aufgabe13 {

@@ -3,32 +3,35 @@ package de.schueler.praktikum;
 import java.util.Scanner;
 
 /**
- * Implementiere ein Programm, dass die Anzahl der Buchtaben 'e' in einem eingebenen Wort zählt.
- * Nutze folgende Hilfsfunktionen:
- * String wort = "Hello";
- * text.charAt(0); // 'H' 0=erster Buchstabe
- * text.charAt(1); // 'e' 1=zweiter Buchstabe
- * text.charAt(2); // 'l' 2=dritter Buchstabe
- * ...
- * text.length(); // 5 letzter Buchstabe ist also text.length() -1 !!
- *
- * Verwende for-Schleifen und if-else....
- *
- *
- * Ausbauschritt, wenn der erste Teil bereits funktioniert:
- * Das Programm soll auch mit Großbuchstaben umgehen können.
+ * Implementiere ein Programm, bei dem zwei Zahlen (Höhe und Breite) eingelesen werden
+ * und dann für die Ausgabe eines Vierecks aus # genutzt werden.
  *
  * Beispiel:
- * Entenhausen -> 3xe  (1xE und 2xe)
  *
+ * Eingabe Höhe 2, Breite 4 -> Ausgabe:
+ * ####
+ * ####
+ *
+ *
+ * Eingabe Höhe 3, Breite 6 -> Ausgabe:
+ * ######
+ * ######
+ * ######
+ *
+ * Nutze dafür zwei verschaltelte for-Schleifen --> ggfs. Google nutzen und einlesen
+ * for(....) {
+ *      for(....) {
+ *    }
+ * }
  */
 public class Aufgabe12 {
 
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);
-        System.out.println("Bitte ein Wort eingeben: ");
-        String wort = scanner.next();
-
+        System.out.println("Gib die Höhe des Vierecks ein?");
+        int hoehe = Integer.valueOf(scanner.next());
+        System.out.println("Gib die Breite des Vierecks ein?");
+        int breite = Integer.valueOf(scanner.next());
 
     }
 }
