@@ -3,7 +3,7 @@ package de.schueler.praktikum;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Test123 {
+class ASimpleTest {
 
     @Test
     void testSumme() {
