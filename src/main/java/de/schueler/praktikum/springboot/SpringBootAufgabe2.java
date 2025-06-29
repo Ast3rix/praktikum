@@ -6,8 +6,8 @@ package de.schueler.praktikum.springboot;
  * - Die Daten (Vor- und Nachname) sollen aber im Post-Body, in einem JSON, übergeben werden.
  *      Beispiel:
  *      {
- *          "nachname": "Bartsch",
- *          "vorname": "Rudolf"
+ *          "nachname": "Mustermann",
+ *          "vorname": "Hans"
  *      }
  *
  * Teste den Controller mit "Bruno".
