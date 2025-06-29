@@ -7,7 +7,7 @@
 * Vorstellung des aktuellen Projekts
 * Vorstellung des SourceCodeManagement Tool "Git" und arbeitsweise mit Git
 * Grundlagen der Web-Entwicklung
-* Grundlagen von "Continuous Integration" und "Continuous Delivery/Deployment"
+* Grundlagen von Continuous Integration und Continuous Delivery/Deployment
 * Grundlagen der technischen Infrastruktur (Docker/Kubernetes)
 * Grundlagen von IT-Security
-* 
+* Build-Management mit "Maven"

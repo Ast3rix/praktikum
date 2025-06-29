@@ -1,0 +1,14 @@
+package de.schueler.praktikum.springboot;
+
+/**
+ * Implementiere einen WEB-Endpoint (Controller) mit Springboot, der folgendes kann:
+ * - GET /hello gibt "Hello World" zurück
+ * - GET /hello/{name} gibt "Hello {name}" zurück
+ *
+ * Implementiere den Controller im "springboot" - pacakge. Verwende dazu SpringBoot.
+ * Teste den Controller einem Browser z.B. Chrome.
+ *
+ */
+public class SpringBootAufgabe1 {
+
+}
