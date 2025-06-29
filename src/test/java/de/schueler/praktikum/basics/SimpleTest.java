@@ -1,4 +1,4 @@
-package de.schueler.praktikum;
+package de.schueler.praktikum.basics;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
