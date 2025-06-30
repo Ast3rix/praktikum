@@ -30,4 +30,13 @@ tasks.named('test') {
 
 compileJava {
     options.compilerArgs += '-parameters'
+    options.forkOptions.jvmArgs += ['-Xshare:off']
+}
+
+compileTestJava {
+    options.forkOptions.jvmArgs += ['-Xshare:off']
+}
+
+tasks.withType(Test) {
+    jvmArgs '-Xshare:off'
 }
