@@ -1,7 +1,7 @@
 package de.schueler.praktikum.springboot;
 
 /**
- * Implementiere einen WEB-Endpoint (Controller) mit Springboot, der folgendes kann:
+ * Implementiere einen WEB-Endpoint (HelloController) mit Springboot, der folgendes kann:
  * - GET /hello gibt "Hello World" zurück
  * - GET /hello/{name} gibt "Hello {name}" zurück
  *
