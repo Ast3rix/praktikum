@@ -9,9 +9,12 @@ package de.allianz.praktikum.basics;
 public class Aufgabe03 {
 
     public static void main(String[] ignored) {
+
         System.out.println(0);
         int zero = 0;
+        zero++;
         System.out.println(zero);
+
     }
 
 }

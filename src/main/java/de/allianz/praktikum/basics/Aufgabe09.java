@@ -16,6 +16,11 @@ public class Aufgabe09 {
         System.out.println("Gib ein Passwort ein: ");
         var password = scanner.next();
         var passwordLength = password.length();
+        if  (passwordLength <= 10 && passwordLength >= 4) {
+            System.out.println("Passwort entspricht Kriterien");
+        }else  {
+            System.out.println("Passwort entspricht nicht Kriterien");
+        }
 
     }
 }

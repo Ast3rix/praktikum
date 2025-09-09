@@ -19,7 +19,9 @@ public class Aufgabe11 {
 
         System.out.println("Wie viele # soll ich anzeigen?");
         int anzahl = Integer.valueOf(scanner.next());
-
+        for (int i = 0; i < anzahl; i++) {
+            System.out.print("#");
+        }
 
     }
 }

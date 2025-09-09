@@ -12,17 +12,20 @@ public class Aufgabe02 {
         int apfel = 5;
 
         // weise birnen den Wert 3 zu
+        birnen = 3;
 
         System.out.println("3 erwartet: " + birnen);
 
         // addiere 5 zu dem Wert von birnen
+        birnen = birnen + 5;
 
         System.out.println("8 erwartet: " + birnen);
 
         // subtrahiere die birnen von den apfel und speichere
         // das Ergebnis in einer neuen Variablen mit den namen 'summe'
         // und gebe den Wert aus
+        int summe = apfel - birnen;
 
-
+        System.out.println("summe = " + summe);
     }
 }

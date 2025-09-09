@@ -24,6 +24,10 @@ public class Aufgabe06 {
         var random = new Random();
         int radius = random.nextInt(100);
         System.out.println("Radius = " + radius);
+        double pi = 3.14159;
+        double umfang = 2 * pi * radius;
+        double flaeche = pi * radius * radius;
+        System.out.println("umfang = " + umfang + "\nfläche = " + flaeche);
 
     }
 }

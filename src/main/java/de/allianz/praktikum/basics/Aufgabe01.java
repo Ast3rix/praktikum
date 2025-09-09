@@ -7,6 +7,6 @@ package de.allianz.praktikum.basics;
 public class Aufgabe01 {
 
     public static void main(String[] args) {
-
+        System.out.println("Hallo!");
     }
 }

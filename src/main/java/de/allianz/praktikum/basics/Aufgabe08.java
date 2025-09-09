@@ -17,7 +17,14 @@ public class Aufgabe08 {
         var random = new Random();
         int zufallsZahl = random.nextInt(100);
         System.out.println("Zufallszahl = " + zufallsZahl);
-
-
+        if (zufallsZahl < 30) {
+            System.out.println("zufallsZahl is less than 30");
+        }else if (zufallsZahl < 50) {
+            System.out.println("30 >= zufallsZahl < 50");
+        }else if (zufallsZahl < 75) {
+            System.out.println("50 >= zufallsZahl < 75");
+        }else {
+            System.out.println("Sonstige Zahl");
+        }
     }
 }
