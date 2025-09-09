@@ -18,8 +18,8 @@ public class Aufgabe09 {
         var passwordLength = password.length();
         if  (passwordLength <= 10 && passwordLength >= 4) {
             System.out.println("Passwort entspricht Kriterien");
-        }else  {
-            System.out.println("Passwort entspricht nicht Kriterien");
+        }else   {
+            System.out.println("Passwort 1 entspricht nicht Kriterien");
         }
 
     }
