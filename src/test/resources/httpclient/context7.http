@@ -1,0 +1,26 @@
+### context7 - getIDs
+GET https://context7.com/api/v1/search/?query=springboot
+
+> {%
+    client.test("Request executed successfully", function () {
+        client.assert(response.status === 200, "Response status is not 200");
+    });
+%}
+
+### context7 - getDocumentation by ID
+GET https://context7.com/api/v1/spring-projects/spring-framework?token=5000
+
+> {%
+    client.test("Request executed successfully", function () {
+        client.assert(response.status === 200, "Response status is not 200");
+    });
+%}
+
+### context7 - getDocumentation by ID with topic
+GET https://context7.com/api/v1/spring-projects/spring-framework?token=5000&topic=Controller
+
+> {%
+    client.test("Request executed successfully", function () {
+        client.assert(response.status === 200, "Response status is not 200");
+    });
+%}

@@ -1,0 +1,36 @@
+### hello without name
+GET http://localhost:8009/hello
+
+> {%
+    client.test("Request executed successfully", function () {
+        client.assert(response.status === 200, "Response status is not 200");
+        client.assert(response.body === "Hello World", "Hello World not returned");
+    });
+%}
+
+### hello with name
+GET http://localhost:8009/hello/Rudi
+
+> {%
+    client.test("Request executed successfully", function () {
+        client.assert(response.status === 200, "Response status is not 200");
+        client.assert(response.body === "Hello Rudi", "Hello World not returned");
+    });
+%}
+
+###
+POST http://localhost:8009/hello
+Content-Type: application/json
+
+{
+    "nachname": "Mustermann",
+    "vorname": "Hans"
+}
+
+> {%
+    client.test("Request executed successfully", function () {
+        client.assert(response.status === 200, "Response status is not 200");
+        client.assert(response.contentType.mimeType === 'application/json', "application/json content type not returned");
+        client.assert(response.body.greetings ==  "Hello Hans Mustermann!", "body.greetings with value 'Hello Hans Mustermann!' not returned");
+    });
+%}

@@ -1,0 +1,10 @@
+Do following tasks:
+ - look for the files SpringBootAufgabe1.java and SpringBootAufgabe2.java
+ - read comments in file SpringBootAufgabe1 and SpringBootAufgabe2
+ - implement the described task in the both files in a HelloWorldController
+   - use only one method for the get Controller
+   - use Lombok to generate getters and setters in the model classes
+ - Write tests for the HelloWordController by using MockMvc
+ - Think about edge cases like special characters in the name and write tests for them
+ - Run the tests with Maven (not with Gradle)
+ - if the tests fails, fix the code and rerun the tests
