@@ -28,14 +28,18 @@ public class Aufgabe13 {
         var scanner = new Scanner(System.in);
         System.out.println("Bitte ein Wort eingeben: ");
         String wort = scanner.next();
-        int countE = 0;
+        int countgroßE = 0;
+        int countkleinE = 0;
         for (int i = 0; i < wort.length(); i++) {
             char buchstabeAtIndex = wort.charAt(i);
-            if (buchstabeAtIndex == 'e' || buchstabeAtIndex == 'E') {
-                countE++;
+            if (buchstabeAtIndex == 'e') {
+                countkleinE++;
+            }else if (buchstabeAtIndex == 'E') {
+                countgroßE++;
             }
         }
-        System.out.println("Anzahl der 'e' = "  +  countE);
+        System.out.println("Anzahl der 'E' = "  +  countgroßE);
+        System.out.println("Anzahl der 'e' = " + countkleinE);
 
     }
 }
