@@ -1,17 +1,16 @@
 package de.allianz.praktikum.basics;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 /**
  * Implementiere ein Programm, dass ein Wort einliest und dann das Wort anders herum zurück gibt.
- *
+ * <p>
  * Beispiel:
  * Eingabe "hallo" -> Ausgabe "ollah"
- *
+ * <p>
  * Falls das Wort ein Palindrom ist, dann gibt "Es handelt sich um ein Palindrome!" aus.
  * (Ein Palindrom ist ein Wort, dass vorwärts und rückwärts gleich ist. Beispiel: uhu, radar, rentner, ...)
- *
+ * <p>
  * Ausbauschritt, wenn der erste Teil bereits funktioniert:
  * Das Programm soll bei der Palidrom-Erkennung die Großbuchstaben ignorieren können.
  * Beispiel:
@@ -24,19 +23,22 @@ public class Aufgabe14 {
         var scanner = new Scanner(System.in);
         System.out.println("Bitte ein Wort eingeben: ");
         String wort = scanner.next();
-        String reversedwort = reverseString(wort);
+        String reversedwort = "";
+        for (int i = wort.length() - 1; i >= 0; i--) {
+            System.out.println("Aktueller Buchstabe: "  +  wort.charAt(i));
+            reversedwort += wort.charAt(i);
+            System.out.println("Aktuelle ReveserWort: "  + reversedwort);
+        }
         System.out.println("Original: " + wort);
         System.out.println("Umgekehrt: " + reversedwort);
-    }
-    public static String reverseString(String str) {
-        if (str == null) {
-            return null;
+
+        if(wort.equals(reversedwort)) {
+            System.out.println("Es handelt sich um ein Palindrom!");
         }
-        StringBuilder stringBuilder = new StringBuilder(str);
-        stringBuilder.reverse();
-        return stringBuilder.toString();
+
+
     }
-    if('wort' == 'reversedwort') {
-        System.out.println("Es handelt sich um ein Palindrom!");
-    }
+
+
+
 }
