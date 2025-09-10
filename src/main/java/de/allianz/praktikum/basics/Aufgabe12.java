@@ -32,6 +32,11 @@ public class Aufgabe12 {
         int hoehe = Integer.valueOf(scanner.next());
         System.out.println("Gib die Breite des Vierecks ein?");
         int breite = Integer.valueOf(scanner.next());
-
+        for (int i = 0; i < hoehe; i++) {
+            for (int j = 0; j < breite ; j++) {
+                System.out.print("#");
+            }
+            System.out.println("");
+        }
+        }
     }
-}

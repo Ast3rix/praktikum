@@ -28,7 +28,14 @@ public class Aufgabe13 {
         var scanner = new Scanner(System.in);
         System.out.println("Bitte ein Wort eingeben: ");
         String wort = scanner.next();
+        int count = 0;
+        for (int i = 0; i < text.length() ; i++) {
+            if (buchstabe == 'e') {
+        } else {
 
+            }
+            System.out.println("Anzahl der 'e'");
+        }
 
     }
 }
