@@ -24,9 +24,7 @@ public class Aufgabe14 {
         var scanner = new Scanner(System.in);
         System.out.println("Bitte ein Wort eingeben: ");
         String wort = scanner.next();
-        for( int i = 0; i < wort; i--)  {
-            System.out.println("wort");
-        }
+
 
 
     }

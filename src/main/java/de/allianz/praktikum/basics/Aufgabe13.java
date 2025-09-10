@@ -6,18 +6,18 @@ import java.util.Scanner;
  * Implementiere ein Programm, dass die Anzahl der Buchtaben 'e' in einem eingebenen Wort zählt.
  * Nutze folgende Hilfsfunktionen:
  * String wort = "Hello";
- * text.charAt(0); // 'H' 0=erster Buchstabe
- * text.charAt(1); // 'e' 1=zweiter Buchstabe
- * text.charAt(2); // 'l' 2=dritter Buchstabe
+ * wort.charAt(0); // 'H' 0=erster Buchstabe
+ * wort.charAt(1); // 'e' 1=zweiter Buchstabe
+ * wort.charAt(2); // 'l' 2=dritter Buchstabe
  * ...
  * text.length(); // 5 letzter Buchstabe ist also text.length() -1 !!
- *
+ * <p>
  * Verwende for-Schleifen und if-else....
- *
- *
+ * <p>
+ * <p>
  * Ausbauschritt, wenn der erste Teil bereits funktioniert:
  * Das Programm soll auch mit Großbuchstaben umgehen können.
- *
+ * <p>
  * Beispiel:
  * Entenhausen -> 3xe  (1xE und 2xe)
  *
@@ -28,14 +28,14 @@ public class Aufgabe13 {
         var scanner = new Scanner(System.in);
         System.out.println("Bitte ein Wort eingeben: ");
         String wort = scanner.next();
-        int count = 0;
-        for (int i = 0; i < text.length() ; i++) {
-            if (buchstabe == 'e') {
-        } else {
-
+        int countE = 0;
+        for (int i = 0; i < wort.length(); i++) {
+            char buchstabeAtIndex = wort.charAt(i);
+            if (buchstabeAtIndex == 'e' || buchstabeAtIndex == 'E') {
+                countE++;
             }
-            System.out.println("Anzahl der 'e'");
         }
+        System.out.println("Anzahl der 'e' = "  +  countE);
 
     }
 }
