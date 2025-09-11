@@ -21,6 +21,23 @@ public class Aufgabe16 {
         var scanner = new Scanner(System.in);
         System.out.println("Gebe eine einstellige Zahl ein: ");
         int zahl = scanner.nextInt();
-
+        switch (zahl) {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+                System.out.println("kleine zahl");
+                break;
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+                System.out.println("mittelgroße zahl");
+                break;
+            default:
+                System.out.println("hohe zahl");
+        }
     }
 }

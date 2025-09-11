@@ -39,8 +39,14 @@ public class Aufgabe17 {
 
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);
-        System.out.println("Wieviele Artikel wollen Sie kaufen?");
+            System.out.println("Wieviele Artikel wollen Sie kaufen?");
         int anzahlArtikel = scanner.nextInt();
-
+        int[] arrayOne = new int[anzahlArtikel];
+        for (int i = 0; i < anzahlArtikel; i++) {
+        }
+            System.out.println("Wert 'anzahlArtikel' Feld" + arrayOne); //Preise einzeln
+        for (int i = 0; i < anzahlArtikel; i++);
+            System.out.println( );
+       }
     }
 }

@@ -32,13 +32,10 @@ public class Aufgabe14 {
         System.out.println("Original: " + wort);
         System.out.println("Umgekehrt: " + reversedwort);
 
-        if(wort.equals(reversedwort)) {
+        if(wort.equalsIgnoreCase(reversedwort)) {
             System.out.println("Es handelt sich um ein Palindrom!");
         }
 
-
     }
-
-
 
 }
