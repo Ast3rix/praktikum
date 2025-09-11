@@ -18,9 +18,43 @@ package de.allianz.praktikum.basics;
 public class Aufgabe19 {
 
     public static void main(String[] args) {
-        int[] myNumbers = {9, 3, 2, 8, 11, 6, 7, 5, 4, 1, 10};
+        int[] myNumbers = {9, 3, 2, 8, 11, 6, 7, 5, 4, 10};
         int[] myNumbers2 = {6, 10, 2, 5, 9, 3};
         int[] myNumbers3 = {1};
+        int minimum1 =  minimum(myNumbers);
+        int minimum2 =  minimum(myNumbers2);
+        int minimum3 =  minimum(myNumbers3);
+        System.out.println("Das Minimum von myNumbers ist: " + minimum1);
+        System.out.println("Das Minimum von myNumbers2 ist: " + minimum2);
+        System.out.println("Das Minimum von myNumbers3 ist: " + minimum3);
 
+
+        int maximum1 =  maximum(myNumbers);
+        int maximum2 =  maximum(myNumbers2);
+        int maximum3 =  maximum(myNumbers3);
+        System.out.println("Das Maximum von myNumbers ist: " + maximum1);
+        System.out.println("Das Maximum von myNumbers2 ist: " + maximum2);
+        System.out.println("Das Maximum von myNumbers3 ist: " + maximum3);
     }
+
+    private static int minimum(int[] numbers) {
+        int aktuellesMinimum = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (aktuellesMinimum > numbers[i]) {
+                aktuellesMinimum = numbers[i];
+            }
+        }
+        return aktuellesMinimum;
+    }
+
+    private static int maximum(int[] numbers) {
+        int aktuellesMaximum = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (aktuellesMaximum < numbers[i]) {
+                aktuellesMaximum = numbers[i];
+            }
+        }
+        return aktuellesMaximum;
+    }
+
 }

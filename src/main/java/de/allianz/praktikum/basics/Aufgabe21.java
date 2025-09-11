@@ -26,6 +26,9 @@ public class Aufgabe21 {
 
         System.out.println("Gib einen Radius an?");
         int radius = scanner.nextInt();
+        Kreis kreis = new Kreis(radius);
+        System.out.println("Der Radius ist: " + kreis.berechneFlaeche());
+        System.out.println("Der Umfang ist: " + kreis.berechneUmfang());
 
     }
 }
