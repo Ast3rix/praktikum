@@ -18,6 +18,7 @@ package de.allianz.praktikum.basics;
  * 1. Erstelle eine Klasse "Rennen"
  * 2. Ein Rennen hat folgende Eigenschaften:
  *      - einen Namen
+ *      - Streckenlänge
  *      - die Anzahl der teilnehmenden Schnecken
  *      - die teilnehmenden Schnecken selbst, als:
  *          ArrayList: schönere Umsetzung mit variabler Teilnehmerzahl

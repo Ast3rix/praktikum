@@ -13,10 +13,10 @@ package de.allianz.praktikum.basics;
  * Google, wie diese angelegt werden und lege einen oder mehrere geeignete Konstruktoren an.
  *
  * Erstellen Sie Methoden für folgende Operationen:
- * Ausgabe der Kontodaten (nutze hierfür die "toString()"-Methode -> Google wie diese funktioniert.)
- * Einzahlung
- * Auszahlung (solange das Limit nicht überschritten ist)
- * Abfrage des Kontostandes.
+ *  - Ausgabe der Kontodaten (nutze hierfür die "toString()"-Methode -> Google wie diese funktioniert.)
+ *  - Einzahlung
+ *  - Auszahlung (solange das Limit nicht überschritten ist)
+ *  - Abfrage des Kontostandes.
  *
  * Zweiter Teil:
  * ============
