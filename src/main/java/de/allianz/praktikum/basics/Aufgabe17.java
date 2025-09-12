@@ -7,17 +7,16 @@ import java.util.Scanner;
  * Dann sollen die Artikel-Beträge (ganzzahlig) eingelesen werden und am Ende alle eingelesenen Beträge addiert werden.
  * Das Programm gibt am Ende den Gesamtbetrag aus:
  *
- * Benutzte dazu "arrays":
- * Google, was in Java Arrays sind und wie Arrays verwendet werden können.
+ * Benutzte dazu "ArrayList":
+ * Google, was in Java ArrayList ist und wie ArrayList verwendet werden kann.
  *
  * Beispiel:
- * int[] arrayOne = new Int[3];  --> legt ein Array mit der Größe 3 an
- * arrayOne[0] = 5;              --> schreibt in das erste Feld den Wert 5
- * arrayOne[1] = 2;              --> schreibt in das zweite Feld den Wert 2
- * arrayOne[2] = arrayOne[0] * 3;   -> schreibt in das dritte Feld das Produkt aus dem ersten Feld und 3
- * System.out.println("Wert 2. Feld = " + arrayOne[1])
+ * List<Integer> listOne = new ArrayList<>();  --> legt eine ArrayList an
+ * listOne.add(5);              --> fügt den Wert 5 zur Liste hinzu
+ * listOne.add(2);              --> fügt den Wert 2 zur Liste hinzu
+ * System.out.println("Wert 2. Element = " + listOne.get(1))
  *
- * Bitte beachte, dass der Index mit 0 beginnt. Das bedeutet, dass das erste werte Werte beim Feld 0 steht.
+ * Bitte beachte, dass der Index mit 0 beginnt. Das bedeutet, dass das erste Element beim Index 0 steht.
  *
  * Beispiel für den Input und output des Programms:
  * ================================================
