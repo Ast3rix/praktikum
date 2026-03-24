@@ -5,8 +5,8 @@ package de.allianz.praktikum.basics;
  * Google was in Java ein Methode ist und wie diese funktioniert.
  * Die Signatur der Methode soll wie folgt aussehen:
  *
- * public static double minimum(double[] numbers) { }
- * public static double maximum(double[] numbers) { }
+ * public static int minimum(int[] numbers) { }
+ * public static int maximum(int[] numbers) { }
  *
  * Rufe die Methoden mit den 3 Arrays "myNumbers1", "myNumbers2", "myNumbers3" (siehe unten) auf
  * und gebe das Ergebnis der Methode in der Konsole aus.

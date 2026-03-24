@@ -30,7 +30,7 @@ public class Aufgabe10 {
 
 
 
-        System.out.println("Gib die ditte Zahl ein: ");
+        System.out.println("Gib die dritte Zahl ein: ");
         int dritteZahl =Integer.parseInt(scanner.next());
 
 
